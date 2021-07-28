@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                            InlineKeyboardButton("🍿 Join Series Group", url=https://t.me/SeriesLandChat)
                         ]
                     ]
                 ),
@@ -294,8 +294,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('🍿Group', url='https://t.me/SeriesLandChat'),
+                        InlineKeyboardButton('🎥Channel', url='https://t.me/TVseriesLand4U')
                     ]
                     ]
                 
@@ -326,8 +326,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('🍿Group', url='https://t.me/SeriesLandChat'),
+                        InlineKeyboardButton('🎥 Channel', url='https://t.me/TVseriesLand4U')
                     ]
                     ]
                 
