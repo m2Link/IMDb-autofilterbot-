@@ -104,7 +104,7 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton('MYdev👩‍💻', url='https://t.me/Physic_hybrid'),
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("About😎", callback_data="about")
                     ],
                     [   InlineKeyboardButton('➕ Add Me To Your Group ', url='https://t.me/TGMovieRobot?startgroup=true'),]
                 ]
