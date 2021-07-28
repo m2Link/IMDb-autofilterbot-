@@ -103,8 +103,10 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Channel 🎥", url="https://t.me/TVseriesLand4U")
                     ],
                     [
+                        InlineKeyboardButton('MYdev👩‍💻', url='https://t.me/Physic_hybrid'),
                         InlineKeyboardButton("About", callback_data="about")
-                    ]
+                    ],
+                    [   InlineKeyboardButton('➕ Add Me To Your Group ', url='https://t.me/TGMovieRobot?startgroup=true'),]
                 ]
             )
         )
