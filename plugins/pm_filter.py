@@ -272,11 +272,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton(' MYdev👩‍💻', url='https://t.me/Physic_hybrid'),
+                    InlineKeyboardButton('Group🍿', url='https://t.me/SeriesLandChat')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text = """🙋🏻‍♂️   Hellooo    <code> {}🤓</code>
+    
+<b>○ My Name :</b> <code>Movie Searching Bot</code>
+<b>○ Creator :</b> <a href="https://t.me/Physic_hybrid">Physic_Hybrid🇵🇹</a>
+<b>○ Credits :</b> <code>Everyone in this journey</code>
+<b>○ Language :</b> <code>Python3</code>
+<b>○ Library :</b> <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.17.1</a>
+<b>○ Supported Site :</b> <a href="https://my.telegram.org/">Only Telegram</a>
+<b>○ Source Code :</b> <a href="https://t.me/AdhavaaBiriyaniKittiyalo">👉 Click Here</a>
+<b>○ Server :</b> <a href="https://herokuapp.com/">Heroku</a>
+<b>○ Database :</b> <a href="https://www.mongodb.com/">MongoDB</a>
+<b>○ Build Status :</b> <code>V2.1 [BETA]</code>
+<b>📜 Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>""".format(update.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
