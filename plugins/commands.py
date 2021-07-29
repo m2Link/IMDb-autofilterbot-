@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🍿Group', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('🍿Group', url='https://t.me/SeriesLandChat')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -86,7 +86,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿 Join Series Group", url=https://t.me/SeriesLandChat)
+                        InlineKeyboardButton("🍿 Join Series Group", url='https://t.me/SeriesLandChat')
                     ]
                 ]
             )
