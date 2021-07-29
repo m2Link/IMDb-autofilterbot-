@@ -198,7 +198,7 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Group 🍿', url='https://t.me/SeriesLandChat')
         ]
         ]
-    await message.reply(text="text = """🙋🏻‍♂️   Hellooo    <code> {}🤓</code>
+    await message.reply(text = """🙋🏻‍♂️   Hellooo    <code> {}🤓</code>
     
 <b>○ My Name :</b> <code>Movie Searching Bot</code>
 <b>○ Creator :</b> <a href="https://t.me/Physic_hybrid">Physic_Hybrid🇵🇹</a>
