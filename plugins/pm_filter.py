@@ -288,7 +288,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 <b>○ Server :</b> <a href="https://herokuapp.com/">Heroku</a>
 <b>○ Database :</b> <a href="https://www.mongodb.com/">MongoDB</a>
 <b>○ Build Status :</b> <code>V2.1 [BETA]</code>
-<b>📜 Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>""".format(from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+<b>📜 Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>""".format(update.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
