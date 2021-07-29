@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿 Join Series Group", url=https://t.me/SeriesLandChat)
+                            InlineKeyboardButton("🍿 Join Series Group", url='https://t.me/SeriesLandChat')
                         ]
                     ]
                 ),
