@@ -73,7 +73,7 @@ async def start(bot, cmd):
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
                     file_id=file_id,
-                    caption=f'<code>{files.file_name} </code> <b>Join 😎===> @SeriesLandChat</b>',
+                    caption=f_caption,
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
         except Exception as err:
