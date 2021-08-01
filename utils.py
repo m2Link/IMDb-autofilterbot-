@@ -152,7 +152,7 @@ async def get_filter_results(query):
     total_results = await Media.count_documents(filter)
     cursor = Media.find(filter)
     cursor.sort('$natural', -1)
-    files = await cursor.to_list(length=int(total_results))
+    files = await cursor.to_list(length=int(50))
     return files
 
 async def get_file_details(query):
