@@ -31,7 +31,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🍿 Join Series Group", url='https://t.me/SeriesLandChat')
+                                InlineKeyboardButton("🍿 Join Series Channel ", url='https://t.me/TVseriesLand4U')
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
