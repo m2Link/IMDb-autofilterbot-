@@ -82,11 +82,11 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Hey..Bruh🙋‍♂️...Please Join My Updates Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿 Join Series Group", url='https://t.me/SeriesLandChat')
+                        InlineKeyboardButton("🍿 Join Series Chanel ", url='https://t.me/TVseriesLand4U')
                     ]
                 ]
             )
