@@ -98,7 +98,8 @@ async def start(bot, cmd):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [   InlineKeyboardButton(' How To Use Me 🤔', url='https://t.me/joinchat/s3ux_FYag2BmYzRk'),
+                    [   InlineKeyboardButton(' How To Use Me 🤔', url='https://t.me/joinchat/s3ux_FYag2BmYzRk'),]
+
                     [
                         InlineKeyboardButton("Search Here🔎", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("Group 🍿", url="https://t.me/SeriesLandChat")
