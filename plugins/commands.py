@@ -97,8 +97,7 @@ async def start(bot, cmd):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [
-                    [   InlineKeyboardButton(' How To Use Me 🤔', url='https://t.me/joinchat/s3ux_FYag2BmYzRk'),]
+                [                   
 
                     [
                         InlineKeyboardButton("Search Here🔎", switch_inline_query_current_chat=''),
