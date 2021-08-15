@@ -81,10 +81,10 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller\n\n<b>© By</b> [BeyTG](t.me/WTFHY)", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller\n\n<b>© By</b> [BeyTG](t.me/WTFHY)", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -99,11 +99,12 @@ async def filter(client, message):
         poster=None
         if API_KEY:
             poster=await get_poster(search)
-        if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
-        else:
-            await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            if poster:
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller\n\n<b>© By</b> [BeyTG](t.me/WTFHY)", reply_markup=InlineKeyboardMarkup(buttons))
 
+            else:
+                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller\n\n<b>© By</b> [BeyTG](t.me/WTFHY)", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+            return
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
     if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
@@ -145,9 +146,10 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller\n\n<b>© By</b> [BeyTG](t.me/WTFHY)", reply_markup=InlineKeyboardMarkup(buttons))
+
             else:
-                await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller\n\n<b>© By</b> [BeyTG](t.me/WTFHY)", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
