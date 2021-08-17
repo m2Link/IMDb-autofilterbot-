@@ -163,11 +163,14 @@ async def group(client, message):
         )
         poster=None
         if API_KEY:
-            await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
+            poster=await get_poster(search)
+            if poster:
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
                 await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
+
     
 def get_size(size):
     """Get size in readable format"""
