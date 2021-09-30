@@ -94,7 +94,7 @@ async def start(bot, cmd):
     else:
         await cmd.reply_photo(
             photo="https://telegra.ph/file/bc0c97a91d28a93c8c4fe.jpg",
-            caption=f"𝐘𝐨..𝐘𝐨..{cmd.from_user.mention} 🙋, 𝐈'𝐦 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐌𝐞𝐝𝐢𝐚 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭 𝐨𝐫 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐜𝐚𝐥𝐥 𝐦𝐞 𝐚𝐬 𝐀𝐮𝐭𝐨-𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭\n\n𝐇𝐞𝐫𝐞 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐬𝐞𝐚𝐫𝐜𝐡 𝐟𝐢𝐥𝐞𝐬 𝐢𝐧 𝐈𝐧𝐥𝐢𝐧𝐞 𝐦𝐨𝐝𝐞 𝐚𝐬 𝐰𝐞𝐥𝐥 𝐚𝐬 𝐏𝐌, 𝐔𝐬𝐞 𝐭𝐡𝐞 𝐛𝐞𝐥𝐨𝐰 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐭𝐨 𝐬𝐞𝐚𝐫𝐜𝐡 𝐟𝐢𝐥𝐞𝐬 𝐨𝐫 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐭𝐡𝐞 𝐧𝐚𝐦𝐞 𝐨𝐟 𝐟𝐢𝐥𝐞 𝐭𝐨 𝐬𝐞𝐚𝐫𝐜𝐡\n\n©️MᴀɪɴᴛᴀɪɴᴇD Bʏ  <a href=tg://user?id=633942759>ᴘʜʏsɪᴄ_ʜʏʙʀɪᴅ🇵🇹/🇦🇪</a>",
+            caption=f"𝐘𝐨..𝐘𝐨..{cmd.from_user.mention} 🙋,I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group ....\n\nIts Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...🤓\n\n⚠️More Help Check Help Button Below\n\n©️MᴀɪɴᴛᴀɪɴᴇD Bʏ   <a href=tg://user?id=1303203398>M2</a>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -104,10 +104,10 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Group 🍿", url="https://t.me/SeriesLandChat")
                     ],
                     [
-                        InlineKeyboardButton('MYdev👩‍💻', url='https://t.me/Physic_hybrid'),
+                        InlineKeyboardButton('MYdev👩‍💻', url='https://t.me/ask_admin01'),
                         InlineKeyboardButton("About😎", callback_data="about")
                     ],
-                    [   InlineKeyboardButton('➕ Add Me To Your Group ', url='https://t.me/TGMovieRobot?startgroup=true'),]
+                    [   InlineKeyboardButton('➕ Add Me To Your Group ', url='https://t.me/M2MovieRobot?startgroup=true'),]
                 ]
             )
         )
