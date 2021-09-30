@@ -31,7 +31,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🍿 Join Series Channel ", url='https://t.me/TVseriesLand4U')
+                                InlineKeyboardButton("🍿 Join Series Channel ", url='https://t.me/m_Discussion_Group')
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton('❔ How To Use Me ❔', url='https://t.me/joinchat/s3ux_FYag2BmYzRk')
                     ],[                    
                         InlineKeyboardButton("Search Here🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Group 🍿", url="https://t.me/SeriesLandChat")
+                        InlineKeyboardButton("Group 🍿", url="https://t.me/m_Discussion_Group")
                     ],
                     [
                         InlineKeyboardButton('MYdev👩‍💻', url='https://t.me/ask_admin01'),
