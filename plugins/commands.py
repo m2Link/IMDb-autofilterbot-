@@ -66,8 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🍿Group', url='https://t.me/SeriesLandChat')
+                        InlineKeyboardButton('🍿Group', url='https://t.me/m_Discussion_Group')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -86,7 +85,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿 Join Series Chanel ", url='https://t.me/TVseriesLand4U')
+                        InlineKeyboardButton("🍿 Join Series Chanel ", url='https://t.me/m_Discussion_Group')
                     ]
                 ]
             )
@@ -195,14 +194,14 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Channel🎥', url='https://t.me/TVseriesLand4U'),
-            InlineKeyboardButton('Group 🍿', url='https://t.me/SeriesLandChat')
+            InlineKeyboardButton('Group♻️', url='https://t.me/m_Discussion_Group'),
+            InlineKeyboardButton('Channel🍿', url='https://t.me/m2feed')
         ]
         ]
     await message.reply(text = """🙋🏻‍♂️   Hellooo    <code> {}🤓</code>
     
 <b>○ My Name :</b> <code>Movie Searching Bot</code>
-<b>○ Creator :</b> <a href="https://t.me/Physic_hybrid">Physic_Hybrid🇵🇹</a>
+<b>○ Creator :</b> <a href="https://t.me/ask_admin01">M2</a>
 <b>○ Credits :</b> <code>Everyone in this journey</code>
 <b>○ Language :</b> <code>Python3</code>
 <b>○ Library :</b> <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.17.1</a>
@@ -211,5 +210,5 @@ async def bot_info(bot, message):
 <b>○ Server :</b> <a href="https://herokuapp.com/">Heroku</a>
 <b>○ Database :</b> <a href="https://www.mongodb.com/">MongoDB</a>
 <b>○ Build Status :</b> <code>V2.1 [BETA]</code>
-<b>📜 Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>""".format(update.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+<b>📜 Quote :</b> <code>That which does not kill us makes us stronger ... </code>""".format(update.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
