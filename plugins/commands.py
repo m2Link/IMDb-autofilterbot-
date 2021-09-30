@@ -100,7 +100,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton('❔ How To Use Me ❔', url='https://t.me/joinchat/s3ux_FYag2BmYzRk')
                     ],[                    
                         InlineKeyboardButton("Search Here🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Group 🍿", callback_data="help")
+                        InlineKeyboardButton("Group 🍿", url='https://t.me/M2Movies_Series')
                     ],
                     [
                         InlineKeyboardButton('MYdev👩‍💻', url='https://t.me/ask_admin01'),
