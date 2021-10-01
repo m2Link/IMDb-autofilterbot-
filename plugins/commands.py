@@ -92,7 +92,7 @@ async def start(bot, cmd):
         )
     else:
         await cmd.reply_photo(
-            photo="https://telegra.ph/file/bc0c97a91d28a93c8c4fe.jpg",
+            photo="https://telegra.ph/file/060f23dc0b6d04f73ef01.jpg",
             caption=f"𝐘𝐨..𝐘𝐨..{cmd.from_user.mention} 🙋,I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group ....\n\nIts Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...🤓\n\n⚠️More Help Check Help Button Below\n\n©️MᴀɪɴᴛᴀɪɴᴇD Bʏ   <a href=tg://user?id=1303203398>M2</a>",
             reply_markup=InlineKeyboardMarkup(
                 [
