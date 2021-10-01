@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿 Join Series Channel ", url='https://t.me/TVseriesLand4U')
+                            InlineKeyboardButton("🍿 Join Series Channel ", url='https://t.me/m2movie2')
                         ]
                     ]
                 ),
@@ -276,8 +276,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton(' MYdev👩‍💻', url='https://t.me/Physic_hybrid'),
-                    InlineKeyboardButton('Group🍿', url='https://t.me/SeriesLandChat')
+                    InlineKeyboardButton(' MYdev👩‍💻', url='https://t.me/ask_admin01'),
+                    InlineKeyboardButton('Group🍿', url='https://t.me/m2movies_m2')
                 ]
                 ]
             await query.message.edit(text = """🙋🏻‍♂️   Hellooo    <code> {}🤓</code>
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🍿Group', url='https://t.me/SeriesLandChat'),
-                        InlineKeyboardButton('🎥Channel', url='https://t.me/TVseriesLand4U')
+                        InlineKeyboardButton('🍿Group', url='https://t.me/m2movies_m2'),
+                        InlineKeyboardButton('🎥Channel', url='https://t.me/M2MOVIES2')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🍿Group', url='https://t.me/SeriesLandChat'),
-                        InlineKeyboardButton('🎥 Channel', url='https://t.me/TVseriesLand4U')
+                        InlineKeyboardButton('🍿Group', url='https://t.me/M2Movies_Series'),
+                        InlineKeyboardButton('🎥 Channel', url='https://t.me/m_Discussion_Group')
                     ]
                     ]
                 
