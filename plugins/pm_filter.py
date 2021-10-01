@@ -81,10 +81,10 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Title : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎬 Title : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -100,10 +100,10 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Title : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎬 Title : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
@@ -146,10 +146,10 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Title : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎬 Title : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -165,10 +165,10 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>🎬 Film/Serie : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🎬 Title : {search}</b>\n🌟 7.5/10 | IMDb\n🎭 Genres: Document, 🔪 Drama, Thriller", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>🎬 Film/Serie : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎬 Title : {search}</b>\n🌟 8.7/10 | IMDb\n🎭 Genres: Document, Drama, Climax Thriller", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
     
@@ -283,7 +283,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit(text = """🙋🏻‍♂️   Hellooo    <code> {}🤓</code>
     
 <b>○ My Name :</b> <code>Movie Searching Bot</code>
-<b>○ Creator :</b> <a href="https://t.me/Physic_hybrid">Physic_Hybrid🇵🇹</a>
+<b>○ Creator :</b> <a href="https://t.me/ask_admin01">M2</a>
 <b>○ Credits :</b> <code>Everyone in this journey</code>
 <b>○ Language :</b> <code>Python3</code>
 <b>○ Library :</b> <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.17.1</a>
