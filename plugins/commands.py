@@ -212,7 +212,7 @@ async def bot_info(bot, message):
 <b>○ Build Status :</b> <code>V2.1 [BETA]</code>
 <b>📜 Quote :</b> <code>That which does not kill us makes us stronger ... </code>""".format(update.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
-@trojanz.on_message(filters.command('info') & (filters.private | filters.group))
+@Client.on_message(filters.command('info') & (filters.private | filters.group))
 async def showinfo(client, message):
     try:
         cmd, id = message.text.split(" ", 1)
