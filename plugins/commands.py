@@ -276,7 +276,7 @@ async def showinfo(client, message):
     )
 
 
-@trojanz.on_message((filters.private | filters.group) & filters.command('status'))
+@Client.on_message((filters.private | filters.group) & filters.command('status'))
 async def bot_status(client,message):
     if str(message.from_user.id) not in Config.AUTH_USERS:
         return
