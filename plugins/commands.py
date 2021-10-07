@@ -366,4 +366,3 @@ async def bot_status(client,message):
         f"{disk}",
         quote=True,
         parse_mode="md"
-
